@@ -1,0 +1,32 @@
+ksuma@bhagimnrk MINGW32 ~/Desktop/varma/varma1995 (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/ksuma/Desktop/varma/varma1995/                                                                                                                .git/
+
+ksuma@bhagimnrk MINGW32 ~/Desktop/varma/varma1995 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+ksuma@bhagimnrk MINGW32 ~/Desktop/varma/varma1995 (master)
+$ git config --global user.name "varma1995"
+
+ksuma@bhagimnrk MINGW32 ~/Desktop/varma/varma1995 (master)
+$ git config --global user.email "sumanth.varma3141@gmail.com"
+
+ksuma@bhagimnrk MINGW32 ~/Desktop/varma/varma1995 (master)
+$ ls
+notes.txt
+
+ksuma@bhagimnrk MINGW32 ~/Desktop/varma/varma1995 (master)
+$ git add .
+
+ksuma@bhagimnrk MINGW32 ~/Desktop/varma/varma1995 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+ksuma@bhagimnrk MINGW32 ~/Desktop/varma/varma1995 (master)
+$
+
+
+
