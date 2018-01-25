@@ -1,0 +1,48 @@
+
+ksuma@bhagimnrk MINGW32 ~/Desktop/varma/varma1995 (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/ksuma/Desktop/varma/varma1995/.git/
+
+ksuma@bhagimnrk MINGW32 ~/Desktop/varma/varma1995 (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        push comands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ksuma@bhagimnrk MINGW32 ~/Desktop/varma/varma1995 (master)
+$ git add .
+
+ksuma@bhagimnrk MINGW32 ~/Desktop/varma/varma1995 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   push comands.txt
+
+
+ksuma@bhagimnrk MINGW32 ~/Desktop/varma/varma1995 (master)
+$ git commit -m "first push page"
+[master b65cd5a] first push page
+ 1 file changed, 73 insertions(+)
+ create mode 100644 push comands.txt
+
+ksuma@bhagimnrk MINGW32 ~/Desktop/varma/varma1995 (master)
+$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 967 bytes | 967.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/sumanthvarma3141/varma1995.git
+   9ab9173..b65cd5a  master -> master
+
+ksuma@bhagimnrk MINGW32 ~/Desktop/varma/varma1995 (master)
+$
+
+
